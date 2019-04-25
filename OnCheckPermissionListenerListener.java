@@ -1,6 +1,6 @@
 package EasyPermission;
 
-public interface OnCheckPermissionListenerListener extends OnRequestPermissionResultListener {
+public interface OnCheckPermissionListener extends OnRequestPermissionResultListener {
 
 
     void onDontAskAgain();
